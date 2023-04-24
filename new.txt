@@ -1,0 +1,2 @@
+here is the data that i want to store in the file 
+ yeahhh
