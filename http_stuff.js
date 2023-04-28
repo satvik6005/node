@@ -1,5 +1,6 @@
 const http=require('http'); 
-const server=http.createServer((req,res)=>
+const server=http.createServer()
+server.on('request',(req,res)=>
 {
     if(req.url==='/')
     {
